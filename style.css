@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+    background-color: #211C6A;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.game{
+    height: 50vh;
+    width: 50vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+
+h1{
+    color: white;
+    margin-top: 50px;
+}
+
+.box{
+    background: #59B4C3;
+    height: 140px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    font-size: 50px;
+    font-weight: 700;
+    color: #211951;
+}
+
